@@ -1,0 +1,19 @@
+<resources>
+    <dimen name="text_xsmall">10sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_normal">14sp</dimen>
+    <dimen name="text_large">18sp</dimen>
+    <dimen name="text_xlarge">22sp</dimen>
+    <dimen name="text_xxlarge">28sp</dimen>
+
+    <dimen name="spacer_half">4dp</dimen>
+    <dimen name="spacer_default">8dp</dimen>
+    <dimen name="spacer_2x">16dp</dimen>
+    <dimen name="spacer_3x">24dp</dimen>
+    <dimen name="spacer_4x">32dp</dimen>
+    <dimen name="spacer_5x">40dp</dimen>
+    <dimen name="spacer_6x">48dp</dimen>
+    <dimen name="spacer_7x">56dp</dimen>
+    <dimen name="spacer_8x">64dp</dimen>
+    <dimen name="spacer_9x">72dp</dimen>
+</resources>

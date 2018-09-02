@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtEmptyTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/search_repository_empty_title"
+        android:textSize="@dimen/text_xxlarge"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacer_half"
+        android:layout_marginTop="@dimen/spacer_4x"
+        android:gravity="center"
+        android:text="@string/search_repository_suggestions_title"
+        android:textSize="@dimen/text_large"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSuggestion1"
+        style="@style/AppTheme.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Suggestion 1" />
+
+    <Button
+        android:id="@+id/btnSuggestion2"
+        style="@style/AppTheme.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Suggestion 1" />
+
+
+</LinearLayout>

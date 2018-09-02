@@ -1,0 +1,16 @@
+<resources>
+
+    <plurals name="x_forks">
+        <item quantity="one">%d fork</item>
+        <item quantity="other">%d forks</item>
+    </plurals>
+
+    <string name="error_generic">Error occurred. Try again.</string>
+
+    <string name="search_input_hint">Search for…</string>
+
+    <string name="search_repository_title">Search Repository</string>
+    <string name="search_repository_empty_title">No results found</string>
+    <string name="search_repository_suggestions_title">Suggestions:</string>
+
+</resources>
